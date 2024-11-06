@@ -184,7 +184,7 @@ table {
 
                                        .navigation{
                                         text-align: center;
-                                        width: 30rem;
+                                        width: 100%;
                                        }
                                        .button {
                                         display: flex;
@@ -245,7 +245,7 @@ table {
                                         font-size: 12px;
                                     }
                                     #last{
-                                        width: 30rem;
+                                        width: 100%;
                                         text-align: center;
                                     }
 
