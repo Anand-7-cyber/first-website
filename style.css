@@ -78,3 +78,87 @@ table{
     text-align: center;
     margin-left: 500px;
 }
+
+
+
+
+
+
+/* Media Query for 412px or smaller screens */
+@media (max-width: 420px) {
+
+
+                                       .navigation{
+                                        text-align: center;
+                                        width: 30rem;
+                                       }
+                                       .button {
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                        padding: 10px;
+                                    }
+                                
+                                    /* Button Styling */
+                                    .button .but {
+                                        width: 90%; /* Full width for small screens */
+                                        max-width: 300px;
+                                        margin: 10px 0; /* Space between buttons */
+                                        font-size: 16px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        padding: 10px;
+                                        border: none;
+                                        background-color: white;
+                                    }
+                                
+                                    /* Image Styling within Buttons */
+                                    .button .but img {
+                                        width: 30px; /* Adjusted image size */
+                                        height: auto;
+                                        margin-right: 8px;
+                                    } #main {
+                                        text-align: center;
+                                        padding: 10px;
+                                        height: 30rem;
+                                    }
+                                
+                                    /* Image Styling */
+                                    #shopping {
+                                        display: block;
+                                        margin: 0 auto;
+                                        width: 90%; /* Responsive width */
+                                        height: auto;
+                                    }
+                                
+                                    /* Heading Styling */
+                                    .our {
+                                        font-size: 18px;
+                                        margin-top: 15px;
+                                    }
+                                
+                                    /* Table Styling */
+                                    table {
+                                        width: 90%; /* Responsive width */
+                                        margin: 20px auto; /* Center align */
+                                        font-size: 14px;
+                                        text-align: center;
+                                        border-collapse: collapse; /* Removes extra spacing */
+                                    }
+                                    table th, table td {
+                                        padding: 8px;
+                                        font-size: 12px;
+                                    }
+                                    #last{
+                                        width: 30rem;
+                                        text-align: center;
+                                    }
+
+                                    h3{
+                                        text-align: center;
+                                        padding-right: 20px;
+                                    }
+                                }
+
+   
