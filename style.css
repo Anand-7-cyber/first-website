@@ -1,3 +1,9 @@
+*{
+margin;0px;
+    padding:0px;
+}
+
+
 .navigation  {
     box-sizing: border-box;
     background-color: purple;
